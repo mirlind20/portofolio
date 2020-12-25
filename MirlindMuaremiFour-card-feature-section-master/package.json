@@ -1,0 +1,22 @@
+{
+  "name": "four-card-feature-section",
+  "version": "1.0.0",
+  "description": "Four card feature section",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "live-server --browser=chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anthony-Brannan/Four-card-feature-section.git"
+  },
+  "author": "Anthony Brannan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anthony-Brannan/Four-card-feature-section/issues"
+  },
+  "homepage": "https://github.com/Anthony-Brannan/Four-card-feature-section#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
