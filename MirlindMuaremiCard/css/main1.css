@@ -60,6 +60,7 @@ body{
 .card__img{
     margin: auto;
     border-radius: 15px 15px 0px 0px;
+    
 }
 
 .card__content-img{
@@ -69,7 +70,7 @@ body{
     position: relative;
     transform: scale(1);
     justify-content: center;
-    transition: transform 0.5s;
+    transition: transform 0.7s;
 }
 
 .card__content-img:hover{
@@ -140,8 +141,8 @@ body{
 .card__text{
     font-size: 11px;
     font-weight: 700;
-    letter-spacing: 2px;
-    color: hsl(227, 10%, 46%);
+    letter-spacing: 1px;
+    color: hsl(227, 10%, 10%);
 }
 
 /* Attribution */
