@@ -1,0 +1,115 @@
+body{
+    background: linear-gradient(
+        to bottom,
+        hsl(273, 75%, 66%) 5%,
+        hsla(240, 73%, 66%) 50%
+    );
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.main-wrapper{
+    width: 900px;
+    margin: auto;
+}
+
+.wrapper{
+    width: 900px;
+    margin: auto;
+    margin-top: 15%;
+}
+
+#main-div{
+    border-radius: 25px;
+    background-color: white;
+    font-family: "Kumbh Sana", sans-serif;
+    position: relative;
+    z-index: 2;
+    margin-left: 100px;
+}
+
+.img-div{
+    height: 500px;
+    background-image: url(./images/illustration-woman-online-desktop.svg),
+    url(./images/bg-pattern-desktop.svg);
+
+    background-repeat: no-repeat;
+    background-size: 60% , 120%;
+    background-position: -80px 50px, -560px -310px;
+    position: relative;
+    z-index: 3;
+}
+
+.box{
+    background-image: url(./images/illustration-box-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 10px 220px;
+    overflow: hidden;
+    height: 100%;
+    width: 520px;
+    position: fixed;
+    z-index: 5;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    padding: 20px;
+    font-family: "Kumbh Sans", sans-serif;
+    color: hsl(293, 58%, 66%);
+    font-size: 12px;
+  }
+  
+  #questions {
+    float: right;
+    padding-top: 40px;
+    width: 40%;
+    height: 450px;
+    overflow: auto;
+    margin-top: -500px;
+    margin-bottom: 400px;
+    position: relative;
+    z-index: 3;
+  }
+  
+  #answers {
+    display: none;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 10px;
+    color: hsl(240, 6%, 50%);
+    width: 80%;
+  }
+  
+  button {
+    outline: none;
+    cursor: pointer;
+    padding: 12px 0 12px 0;
+    width: 100%;
+    text-align: left;
+    border: none;
+    background-color: white;
+    width: 80%;
+    color: hsl(238, 29%, 16%);
+    font-size: 12px;
+    transition: 0.4s;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  
+  button:hover {
+    color: hsl(14, 88%, 65%);
+  }
+  
+  hr {
+    float: left;
+    width: 80%;
+    border: solid 1px hsl(240, 15%, 94%);
+  }
+  
+  #arrow {
+    float: right;
+  }
